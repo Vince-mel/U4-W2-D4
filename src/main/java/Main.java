@@ -44,6 +44,15 @@ public class Main {
 
         System.out.println("Il prodotto più costoso è: " + MaxProduct);
 
+
+        double mediaImporti = orders.stream()
+                .mapToDouble(Order::getTotal)
+                .average()
+                .orElse(0.0);
+        System.out.println("La media degli importi è :" + mediaImporti);
+
+
+
     }
 
 

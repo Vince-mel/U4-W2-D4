@@ -74,5 +74,13 @@ public class Order {
 		return products.stream()
 				.mapToDouble(Product::getPrice)
 				.sum();
+
+
+
+
+
+
 	}
+
 }
+
