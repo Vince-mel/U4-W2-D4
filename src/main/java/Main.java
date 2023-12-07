@@ -2,10 +2,7 @@ import entitites.Customer;
 import entitites.Order;
 import entitites.Product;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 import java.util.stream.Collectors;
 
 public class Main {
@@ -36,8 +33,16 @@ public class Main {
         totalSalesByCustomer.forEach((customer, totalSales) -> {
             System.out.println("Cliente: " + customer.getName());
             System.out.println("Totale Vendite: " + totalSales);
-            System.out.println("------");
+
         });
+
+
+
+        Product MaxProduct = warehouse.stream()
+                .max(Comparator.comparing(Product::getPrice))
+                .orElse(null);
+
+        System.out.println("Il prodotto più costoso è: " + MaxProduct);
 
     }
 

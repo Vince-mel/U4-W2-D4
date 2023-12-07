@@ -70,7 +70,7 @@ public class Order {
 	}
 
 	public double getTotalAmount() {
-		// Calcolare l'importo totale degli ordini
+
 		return products.stream()
 				.mapToDouble(Product::getPrice)
 				.sum();

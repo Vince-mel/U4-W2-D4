@@ -4,18 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="019b133b-f1e7-489b-a67b-cf27cf865f7f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/entitites/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/entitites/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/entitites/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ApplicationTest.java" afterDir="false" />
+    <list default="true" id="019b133b-f1e7-489b-a67b-cf27cf865f7f" name="Changes" comment="U4-W2-D4">
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entitites/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entitites/Order.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +59,19 @@
       <option name="presentableId" value="Default" />
       <updated>1701962303968</updated>
     </task>
+    <task id="LOCAL-00001" summary="U4-W2-D4">
+      <option name="closed" value="true" />
+      <created>1701964639146</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1701964639146</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="U4-W2-D4" />
+    <option name="LAST_COMMIT_MESSAGE" value="U4-W2-D4" />
   </component>
 </project>
